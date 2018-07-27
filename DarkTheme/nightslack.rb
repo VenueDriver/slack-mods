@@ -6,21 +6,21 @@ end
 js_code = <<EOF
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
-   url: 'https://cdn.rawgit.com/VenueDriver/slack-mods/master/black.css',
+   url: 'https://cdn.rawgit.com/VenueDriver/slack-mods/master/DarkTheme/black.css',
    success: function(css) {
      css += `
        div.c-virtual_list__scroll_container {
-           background-color: black !important;
+           background-color: #0E0F0F !important;
        }
        .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
             z-index: 0;
        }
        div.c-message__content:hover {
-           background-color: black !important;
+           background-color: #0E0F0F !important;
        }
 
        div.c-message:hover {
-           background-color: black !important;
+           background-color: #0E0F0F !important;
        }
      `;
      $("<style></style>").appendTo('head').html(css);
