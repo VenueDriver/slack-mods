@@ -4,7 +4,11 @@ body { background: #222; color: #e6e6e6; font-family: "Helvetica Neue",Helvetica
 
 .c-message__body { color: #AAAAAA !important; }
 
-#footer_msgs { padding-top: 10px; margin-bottom: -10px; }
+#footer_msgs { padding-top: 10px; }
+
+.c-message__content_header .c-timestamp__label { color: #979797 !important; letter-spacing: .5px; content: "· "; padding-right: 2px; }
+
+.c-message__body a, .c-message__body a:link, .c-message__body a:visited  { color: #949494; }
 
 a { color: #949494; }
 
