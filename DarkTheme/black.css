@@ -1,8 +1,8 @@
 body { background: #222; color: #e6e6e6; font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif !important; }
 
-.c-message--light .c-message__content_header { margin: 9px 0 -5px; border-top: 1px solid #484D52; padding-top: 8px; }
+.c-message--light .c-message__content_header { margin: 9px 0 -5px !important; border-top: 1px solid #484D52 !important; padding-top: 8px !important; }
 
-.c-message__body { color: #AAAAAA; }
+.c-message__body { color: #AAAAAA !important; }
 
 a { color: #949494; }
 
