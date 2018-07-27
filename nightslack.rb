@@ -6,7 +6,7 @@ end
 js_code = <<EOF
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
-   url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+   url: 'https://cdn.rawgit.com/VenueDriver/slack-mods/master/black.css',
    success: function(css) {
      css += `
        div.c-virtual_list__scroll_container {
