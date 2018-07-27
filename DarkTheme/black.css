@@ -698,11 +698,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #limit_meter_message_body { color: #949494; }
 
-.channel_header { background: #222; box-shadow: inset 1px 0 0 0 #222; }
+.channel_header { background: #333940; box-shadow: inset 1px 0 0 0 #222; }
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
-#client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
+#client_body:not(.onboarding)::before { background: #333940; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
 
 .messages_header { color: #e6e6e6; }
 
@@ -732,7 +732,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #flex_menu_toggle .flex_menu_download_circle canvas { background: #222; }
 
-#flex_menu_toggle.unread #help_icon_circle_count { background-color: #bf360c; color: #f2f2f2; }
+#flex_menu_toggle.unread #help_icon_circle_count { background-color: #bf360c; color: #fff; }
 
 #flex_menu_toggle.open #help_icon_circle_count { background-color: #000; color: #e6e6e6; }
 
@@ -2869,7 +2869,7 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .me
 
 .menu_member_header .member_details .member_name_and_presence .member_name { color: #e6e6e6; }
 
-.menu_member_header .member_details .member_name_and_presence .presence.away { color: #f2f2f2; }
+.menu_member_header .member_details .member_name_and_presence .presence.away { color: #fff; }
 
 .menu_member_header .member_details .member_title { color: #949494; }
 
@@ -3580,7 +3580,7 @@ nav#api_nav { background: transparent; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25
 
 .splash_interactive__window::after { background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0, #222 100%); }
 
-.splash_interactive__window_response { background-color: #f2f2f2; }
+.splash_interactive__window_response { background-color: #fff; }
 
 a.splash_interactive__window_link { color: #e6e6e6; }
 
